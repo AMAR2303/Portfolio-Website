@@ -312,7 +312,7 @@ footer{
     }
     .fstsec{
         background-image: linear-gradient(45deg,#3776ac,#8392b5,#96b1e8,#354a73);
-        height: 750px;
+        height: 700px;
     }
     .hobsec{
         background-image: url('../img/b1\ \(1\).jpg');
@@ -329,7 +329,7 @@ footer{
     }
     .co,.con{
         color: rgb(9, 24, 54);
-        font-size: 28px;
+        font-size: 23px;
         display: block;  
         text-align: center;
     }
