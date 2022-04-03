@@ -28,8 +28,8 @@ html,body{
     margin-left: 20px;
 }
 .navbar{
-    display: flex;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0px;
     height: 64px;
     font-family: 'Montaga', serif;
@@ -274,8 +274,8 @@ footer{
         margin-left: 95px;
     }
     .navbar{
-        display: flex;
-        position: sticky;
+        position: fixed;
+        width: 100%;
         top: 0px;
         height: 60px;
         font-family: 'Montaga', serif;
