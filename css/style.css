@@ -61,7 +61,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 630px;
+    height: 695px;
     background: radial-gradient(ellipse at bottom, #030b13 0%, #000000 100%);
     overflow: hidden;
     font-family: 'Cormorant Unicase', serif;
