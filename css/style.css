@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
@@ -9,6 +10,9 @@
   /* font-family: 'Lobster Two', cursive; */
   font-weight:bold;
   scroll-behavior: smooth;
+}
+ul{
+    width: 100%;
 }
 html,body{
     overflow-x: hidden;
@@ -35,6 +39,7 @@ html,body{
     font-family: 'Montaga', serif;
     background-color: rgb(0, 0, 0);
     z-index: 9999;
+    /* display: block; */
 }
 .li{    
     width: 100%;
@@ -78,6 +83,7 @@ html,body{
 .secsec{
     background-image: url('../img/b1\ \(1\).jpg');
     height: 600px;
+    /* position: relative; */
 }
 .lastsec{
     height: 540px;
@@ -103,8 +109,52 @@ html,body{
     text-align: center;
     font-family: 'Montaga', serif;
 }
+.txt21{
+    display: block;  
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Montaga', serif;
+    margin-bottom: 10px;
+    padding-top: 45px;
+    color: #74c386bb;
+}
+.p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* put elements in a row */
+    align-items: center;
+    flex-direction: column;
+}
+.btp:hover{
+    color: #16233a;
+    background-color:  rgb(105, 148, 162);
+    transition: 0.5s;
+    cursor: pointer;
+    /* hover mouse icon */
+
+}
+.projsec{
+    height: 700px;
+    background-image: url('../img/b1\ \(1\).jpg');
+}
+.btp{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montaga', serif;
+    color: rgb(105, 148, 162);
+    background-color: #16233a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border-color: #719de8;
+    border-width: 1px;
+    padding: 10px;
+    width: 80vw;
+}
 .txt1{
-    margin-bottom: 135px;
+    margin-bottom: 80px;
     margin-top: 40px;
     color: rgb(236, 212, 220);
 
@@ -124,6 +174,11 @@ html,body{
     margin-bottom: 50px;
     margin-top: 75px;
     color: #7d90b3;
+}
+.gm{
+    height: 100px;
+    width: 150px;
+    margin: 35px 50px;
 }
 .box{
     display: flex;
@@ -168,13 +223,15 @@ html,body{
 .imgw{
     display: flex;
     margin-top: 80px;
+    align-items: center;
+    justify-content: center;
 }
 .node{
     width: 120px;
     height: 90px;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .css{
     width: 100px;
@@ -198,6 +255,16 @@ html,body{
     height: 100px;
     margin-top: 10px;
     margin-left: 50px;
+}
+.figma{
+    width: 300px;
+    height: 150px;
+    /* margin-top: 10px; */
+    margin-left: 10px;
+}
+.mix{
+    width: 150px;
+    height: 200px;
 }
 
 
@@ -228,8 +295,8 @@ html,body{
 }
 .hp{
     margin-top: 10px;
-    height: 70px;
-    width: 70px;
+    height: 85px;
+    width: 75px;
     filter: invert(90%);
 }
 .in{
@@ -271,7 +338,7 @@ footer{
         margin-left: 10px;
     }
     .rg{
-        margin-left: 95px;
+        margin-left: 40px;
     }
     .navbar{
         position: fixed;
@@ -293,7 +360,7 @@ footer{
         color: rgb(91, 187, 87);
     }
     .li li a{
-        font-size: 20px;
+        font-size: 18px;
         text-decoration: none;
         color: aliceblue;
         display: flex;
@@ -321,11 +388,16 @@ footer{
     }
     .secsec{
         background-image: url('../img/b1\ \(1\).jpg');
-        height: 650px;
+        height: 700px;
     }
     .lastsec{
-        height: 440px;
+        /* margin-top: 100px; */
+        height: 400px;
         background-image: url('../img/b1\ \(1\).jpg');
+    }
+    .projsec{
+        background-image: url('../img/b1\ \(1\).jpg');
+        height: 1100px;
     }
     .co,.con{
         color: rgb(9, 24, 54);
@@ -446,6 +518,18 @@ footer{
     .py{
         width: 90px;
         height: 70px;
+        /* margin-bottom: 35px; */
+        margin: auto;
+    }
+    .figma{
+        width: 250px;
+        height: 100px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    .mix{
+        width: 150px;
+        height: 100px;
         margin: auto;
     }
     
@@ -521,7 +605,7 @@ footer{
         height: 650px;
     }
     .rg{
-        margin-left: 370px;
+        margin-left: 200px;
     }
     .yo p{
         font-size: 75px;
